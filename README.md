@@ -52,12 +52,11 @@ Authentication is robustly handled using the **[FastAPI Users](https://fastapi-u
 3. **Start the Backend**:
    Run the FastAPI server on port 8000:
    ```bash
-   fastapi dev app/app.py
-   # OR: uvicorn app.app:app --reload
+   uv run main.py
    ```
 
 4. **Start the Frontend**:
    In a new terminal window, launch the Streamlit app:
    ```bash
-   streamlit run app/frontend.py
+   uv run streamlit run app/frontend.py
    ```
